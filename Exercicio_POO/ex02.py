@@ -16,19 +16,19 @@ y4 = float(input('Digite o y do 4º ponto: '))
 #Calculos dos Lados
 equacao1 = (x2-x1)**2 + (y2-y1)**2
 Lado1 = math.sqrt(equacao1)
-print(Lado1)
+#print(Lado1)
 
 equacao2 = (x3-x2)**2 + (y3-y2)**2
 Lado2 = math.sqrt(equacao2)
-print(Lado2)
+#print(Lado2)
 
 equacao3 = (x3-x4)**2 + (y3-y4)**2
 Lado3 = math.sqrt(equacao3)
-print(Lado3)
+#print(Lado3)
 
 equacao4 = ((x1-x4)**2 + (y1-y4)**2)
 Lado4 = math.sqrt(equacao4)
-print(Lado4)
+#print(Lado4)
 
 #Calculos das Diagonais
 equacao5 = ((x3-x1)**2  + (y3-y1)**2)

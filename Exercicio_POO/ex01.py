@@ -11,15 +11,15 @@ y3 = float(input('Digite o Y do 3º ponto:'))
 
 equacao1 = (x2-x1)**2 + (y2-y1)**2
 Lado1 = (math.sqrt(equacao1))
-print(Lado1)
+#print(Lado1)
 
 equacao2 = (x3-x1)**2 + (y3-y1)**2
 Lado2 = (math.sqrt(equacao2))
-print(Lado2)
+#print(Lado2)
 
 equacao3 = (x3-x2)**2 + (y3-y2)**2
 Lado3 = (math.sqrt(equacao3))
-print(Lado3)
+#print(Lado3)
 
 if math.isclose(Lado1,Lado2,abs_tol= 0.1) and math.isclose(Lado1,Lado3, abs_tol= 0.1) and math.isclose(Lado2,Lado3, abs_tol= 0.1):
     print('É um triangulo equilatero')
