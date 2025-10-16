@@ -23,7 +23,7 @@ estoque_bebida = {
     "água de coco": 14,
     "espumante": 7
 }
-print()
+
 def mostrar_estoque(estoque_bebida,estoque_comida):
 
     print('Estoque de Comidas')
@@ -102,7 +102,7 @@ def repor_automatico(estoque_bebida,estoque_comida):
     for produto, quantidade in estoque_comida.items():
         if quantidade < 3:
             estoque_comida[produto] += 5 
-repor_automatico(estoque_bebida,estoque_comida)
+#repor_automatico(estoque_bebida,estoque_comida)
 
 menu()
 
@@ -116,4 +116,4 @@ def salvar_relatorio(estoque_bebida, estoque_comida):
         arquivo.write('\nBebidas:\n')
         for bebida, quantidade in estoque_bebida.items():
             arquivo.write(f'{bebida}:{quantidade} unidades\n')
-salvar_relatorio(estoque_bebida,estoque_comida)
+#salvar_relatorio(estoque_bebida,estoque_comida)
