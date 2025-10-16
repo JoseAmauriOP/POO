@@ -1,0 +1,24 @@
+
+Comidas:
+arroz:30 unidades
+feijão:25 unidades
+macarrão:20 unidades
+batata:18 unidades
+carne:12 unidades
+frango:16 unidades
+queijo:10 unidades
+pão:40 unidades
+tomate:22 unidades
+alface:7 unidades
+
+Bebidas:
+água mineral:20 unidades
+refrigerante cola:15 unidades
+suco de laranja:10 unidades
+café:24 unidades
+suco de uva:8 unidades
+suco de Goiaba:12 unidades
+chá:18 unidades
+limonada:9 unidades
+água de coco:14 unidades
+espumante:7 unidades
